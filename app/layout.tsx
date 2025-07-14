@@ -1,8 +1,9 @@
-// app/layout.tsx
 import './globals.css'
 import { ReactNode } from 'react'
 import { Amplify } from 'aws-amplify'
 import awsExports from '../aws-exports'
+
+Amplify.configure(awsExports)
 
 // Configuration Amplify (sans 'ssr')
 Amplify.configure(awsExports)
