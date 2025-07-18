@@ -5,9 +5,6 @@ import awsExports from '../aws-exports'
 
 Amplify.configure(awsExports)
 
-// Configuration Amplify (sans 'ssr')
-Amplify.configure(awsExports)
-
 export const metadata = {
   title: 'Mon app Next + Amplify',
 }
